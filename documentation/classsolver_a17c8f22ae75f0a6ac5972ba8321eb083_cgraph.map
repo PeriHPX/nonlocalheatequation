@@ -1,0 +1,13 @@
+<map id="solver::sum_local_partition" name="solver::sum_local_partition">
+<area shape="rect" id="node1" title=" " alt="" coords="5,122,183,149"/>
+<area shape="rect" id="node2" href="$structpartition__space__client.html#aaf5c40bc7df7d4b85171eebca110ff40" title="Invoke the (remote) member function which gives us access to the data. This is a pure helper function..." alt="" coords="234,5,383,47"/>
+<area shape="rect" id="node3" href="$classpartition__space.html#a1f03dbddc198b6db5886d3a858df1a8d" title="operator to return the size of the data partition in partition_space object" alt="" coords="237,71,380,98"/>
+<area shape="rect" id="node4" href="$classsolver.html#ac8a7fa7659aa20e04188536b8c78bca2" title=" " alt="" coords="247,122,370,149"/>
+<area shape="rect" id="node9" href="$classsolver.html#ab26d058bdc1e1f9fd48a516102dba3f7" title=" " alt="" coords="233,173,385,199"/>
+<area shape="rect" id="node11" href="$classsolver.html#a2cc3ca9950c49fa4985635a068af3c2e" title="Function to retrieve the data from possibly remote partitions for vector of square sundomains." alt="" coords="231,223,387,250"/>
+<area shape="rect" id="node5" href="$classsolver.html#a07519cdb27e65ce4cf06baddfcd3c50d" title=" " alt="" coords="460,122,579,149"/>
+<area shape="rect" id="node6" href="$classsolver.html#a277ef4b966d96198eb41062f4761778b" title=" " alt="" coords="463,173,576,199"/>
+<area shape="rect" id="node7" href="$classsolver.html#a94824c020450859a1536d83eb5122be2" title=" " alt="" coords="435,223,604,250"/>
+<area shape="rect" id="node8" href="$classsolver.html#a4bf8e2e784d143dbff54fe3c5b774307" title="Function to compute length of 3rd side of a right angled triangle given hypotenuse and lenght of one ..." alt="" coords="455,71,584,98"/>
+<area shape="rect" id="node10" href="$classsolver.html#a9698b4227220961889deee0136213f52" title=" " alt="" coords="482,274,557,301"/>
+</map>

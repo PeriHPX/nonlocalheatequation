@@ -1,0 +1,5 @@
+<map id="util::Point3::angle" name="util::Point3::angle">
+<area shape="rect" id="node1" title="Computes the angle between vector given by this and the vector b." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a6f5bb647d3bf440ea64cfedfd758e884" title="Returns the unit vector." alt="" coords="176,5,289,32"/>
+<area shape="rect" id="node3" href="$structutil_1_1Point3.html#a88ade487da8fc45dc644cf26c08c9fd4" title="Computes the Euclidean length of the vector." alt="" coords="337,5,464,32"/>
+</map>

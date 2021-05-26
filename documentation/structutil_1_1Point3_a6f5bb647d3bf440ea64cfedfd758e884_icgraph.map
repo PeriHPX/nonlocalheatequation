@@ -1,0 +1,4 @@
+<map id="util::Point3::unit" name="util::Point3::unit">
+<area shape="rect" id="node1" title="Returns the unit vector." alt="" coords="176,5,289,32"/>
+<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a6cab961e01da2969a7ba2d3f6c5ff054" title="Computes the angle between vector given by this and the vector b." alt="" coords="5,5,128,32"/>
+</map>

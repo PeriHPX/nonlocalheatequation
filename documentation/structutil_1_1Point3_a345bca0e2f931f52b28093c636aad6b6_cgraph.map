@@ -1,0 +1,4 @@
+<map id="util::Point3::unit" name="util::Point3::unit">
+<area shape="rect" id="node1" title="Returns the unit vector." alt="" coords="5,5,119,32"/>
+<area shape="rect" id="node2" href="$structutil_1_1Point3.html#a88ade487da8fc45dc644cf26c08c9fd4" title="Computes the Euclidean length of the vector." alt="" coords="167,5,293,32"/>
+</map>

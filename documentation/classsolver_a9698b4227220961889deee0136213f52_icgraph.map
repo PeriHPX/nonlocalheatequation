@@ -1,0 +1,10 @@
+<map id="solver::w" name="solver::w">
+<area shape="rect" id="node1" title=" " alt="" coords="431,107,505,133"/>
+<area shape="rect" id="node2" href="$classsolver.html#aae56dce50f8676a6aba60574d7ab908f" title=" " alt="" coords="241,5,372,32"/>
+<area shape="rect" id="node3" href="$classsolver.html#aef9fd46e8c35c9e321eec369bf827a61" title=" " alt="" coords="33,56,155,83"/>
+<area shape="rect" id="node4" href="$classsolver.html#ac371e921db8b7458029e9ca5df6f6cf8" title=" " alt="" coords="237,107,376,133"/>
+<area shape="rect" id="node5" href="$classsolver.html#ab5ce1f73a9d3dcbdb94facbf32ce930c" title=" " alt="" coords="239,157,374,184"/>
+<area shape="rect" id="node7" href="$classsolver.html#ab26d058bdc1e1f9fd48a516102dba3f7" title=" " alt="" coords="231,208,383,235"/>
+<area shape="rect" id="node6" href="$classsolver.html#a8a690a2c5674220f7d05c3668139a589" title="Compute the numerical solution on &#39;nx * ny&#39; data points for each of &#39;npx * npy&#39; partitions for &#39;nt&#39; t..." alt="" coords="37,157,151,184"/>
+<area shape="rect" id="node8" href="$classsolver.html#a17c8f22ae75f0a6ac5972ba8321eb083" title=" " alt="" coords="5,208,183,235"/>
+</map>
