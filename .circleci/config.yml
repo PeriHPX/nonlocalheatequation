@@ -8,7 +8,7 @@ version: 2
 jobs:
     build:
         docker:
-          - image: diehlpk/nonlocalmodels:baseimage
+          - image: perihpx/perihpx:baseimage
         steps:
             - checkout
             - run:
@@ -37,7 +37,7 @@ jobs:
         image: ubuntu-2004:202008-01
       environment:
         IMAGE_FOLDER_NAME: .circleci/Docker
-        IMAGE_NAME: diehlpk/nonlocalheatequation:latest
+        IMAGE_NAME: perihpx/nonlocalheatequation:latest
       steps:
         - checkout
         - run:
@@ -57,13 +57,13 @@ jobs:
            command: |
              if [ "${CIRCLE_BRANCH}" == "main" ]; then
                docker login docker.pkg.github.com --username diehlpk -p ${TOKEN}
-               docker tag ${IMAGE_NAME} docker.pkg.github.com/nonlocalmodels/nonlocalheatequation/nonlocalheatequation:latest
-               docker push docker.pkg.github.com/nonlocalmodels/nonlocalheatequation/nonlocalheatequation:latest
+               docker tag ${IMAGE_NAME} docker.pkg.github.comperihpx/nonlocalheatequation/nonlocalheatequation:latest
+               docker push docker.pkg.github.com/perihpx/nonlocalheatequation/nonlocalheatequation:latest
              fi
 
     documentation:
       docker:
-        - image: diehlpk/nonlocalmodels:baseimage
+        - image: perihpx/perihpx:baseimage
       steps:
         - checkout
         - run:
@@ -87,11 +87,11 @@ jobs:
                 git config --global user.email "bot@circleci.com"
                 git add ./documentation/*
                 git commit -m "Update documentation [ci skip] " ./documentation/* || true
-                git push https://${TOKEN}@github.com/nonlocalmodels/nonlocalheatequation.git || true
+                git push https://${TOKEN}@github.com/perihpx/nonlocalheatequation.git || true
               fi
     codecoverage:
       docker: 
-        - image: diehlpk/nonlocalmodels:baseimage
+        - image: perihpx/perihpx:baseimage
       steps:
         - checkout
         - run:
@@ -114,7 +114,7 @@ jobs:
             name: Publish code coverage
             command: |
               if [ "${CIRCLE_BRANCH}" == "main" ]; then
-                coveralls --gcov-options '\-lp' -t ${CTOKEN}
+                COVERALLS_REPO_TOKEN="${CTOKEN}" coveralls -i src --gcov-options '\-lp' 
               fi
 workflows:
   version: 2
