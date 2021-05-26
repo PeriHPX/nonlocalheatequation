@@ -57,7 +57,7 @@ jobs:
            command: |
              if [ "${CIRCLE_BRANCH}" == "main" ]; then
                docker login docker.pkg.github.com --username diehlpk -p ${TOKEN}
-               docker tag ${IMAGE_NAME} docker.pkg.github.comperihpx/nonlocalheatequation/nonlocalheatequation:latest
+               docker tag ${IMAGE_NAME} docker.pkg.github.com/perihpx/nonlocalheatequation/nonlocalheatequation:latest
                docker push docker.pkg.github.com/perihpx/nonlocalheatequation/nonlocalheatequation:latest
              fi
 
