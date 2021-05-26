@@ -16,6 +16,7 @@
 #include <hpx/serialization/serialize.hpp>
 #include <hpx/type_support/unused.hpp>
 #include <hpx/include/performance_counters.hpp>
+#include <hpx/serialization/serialize_buffer.hpp>
 
 #include <boost/shared_array.hpp>
 
