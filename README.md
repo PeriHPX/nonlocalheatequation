@@ -3,9 +3,9 @@
 <img src="https://avatars0.githubusercontent.com/u/1780988?s=280&v=4" align="right" width="130" />
 <img src="https://summerofcode.withgoogle.com/static/img/og-image.png" align="right" width="130" />
 
-**Documentation** : [master](https://nonlocalmodels.github.io/nonlocalheatequation/documentation/)
+**Documentation** : [main](https://perihpx.stellar-group.org/nonlocalheatequation/documentation/)
 
-**Docker image**  : [master image](https://github.com/nonlocalmodels/nonlocalheatequation/packages/338053)
+**Docker image**  : [main image](https://hub.docker.com/repository/docker/perihpx/nonlocalheatequation)
 
 ## About
 
